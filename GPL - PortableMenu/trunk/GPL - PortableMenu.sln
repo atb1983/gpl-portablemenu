@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{39C7DB4E-3A49-44B0-B790-4027A083D758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_Clipboard", "PM - Plugins\PM - Clipboard\PM_Clipboard.csproj", "{146A1C6B-5F62-4A6C-9759-9115C6E39CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPL_PortableMenu", "GPL - PortableMenu\GPL_PortableMenu.csproj", "{C99A7EC5-38E8-450B-ABD4-195F2A7EE45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_ShutdownManager", "PM - Plugins\PM - ShutdownManager\PM_ShutdownManager.csproj", "{6834BB01-8C8F-4B85-BDC6-A830185C8FBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_SystemInfo", "PM - Plugins\PM - SystemInfo\PM_SystemInfo.csproj", "{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_PortableMenuTree", "PM - Plugins\PM - PortableMenuTree\PM_PortableMenuTree.csproj", "{1B751049-59FD-4429-9AA5-D6633E4D7B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_Updater", "PM - Plugins\PM - Updater\PM_Updater.csproj", "{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_EjectDriveManager", "PM - Plugins\PM - EjectDriveManager\PM_EjectDriveManager.csproj", "{DB44F83B-EDFB-48D4-9334-0914C71310DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_Weather", "PM - Plugins\PM - Weather\PM_Weather.csproj", "{87631889-66E8-4391-B1A9-9BED073976B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM_RssReader", "PM - Plugins\PM - Rss Reader\PM_RssReader.csproj", "{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATB_Framework", "..\ATB - Framework\ATB_Framework\ATB_Framework.csproj", "{3C2D818F-DECC-4F4C-B092-776A51C584BF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PM - Setup", "PM - Setup\PM - Setup.vdproj", "{BC1A9862-CA50-41B7-8762-929AF6E6B13A}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146A1C6B-5F62-4A6C-9759-9115C6E39CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146A1C6B-5F62-4A6C-9759-9115C6E39CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146A1C6B-5F62-4A6C-9759-9115C6E39CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146A1C6B-5F62-4A6C-9759-9115C6E39CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99A7EC5-38E8-450B-ABD4-195F2A7EE45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99A7EC5-38E8-450B-ABD4-195F2A7EE45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99A7EC5-38E8-450B-ABD4-195F2A7EE45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99A7EC5-38E8-450B-ABD4-195F2A7EE45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6834BB01-8C8F-4B85-BDC6-A830185C8FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6834BB01-8C8F-4B85-BDC6-A830185C8FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6834BB01-8C8F-4B85-BDC6-A830185C8FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6834BB01-8C8F-4B85-BDC6-A830185C8FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B751049-59FD-4429-9AA5-D6633E4D7B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B751049-59FD-4429-9AA5-D6633E4D7B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B751049-59FD-4429-9AA5-D6633E4D7B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B751049-59FD-4429-9AA5-D6633E4D7B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB44F83B-EDFB-48D4-9334-0914C71310DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB44F83B-EDFB-48D4-9334-0914C71310DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB44F83B-EDFB-48D4-9334-0914C71310DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB44F83B-EDFB-48D4-9334-0914C71310DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87631889-66E8-4391-B1A9-9BED073976B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87631889-66E8-4391-B1A9-9BED073976B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87631889-66E8-4391-B1A9-9BED073976B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87631889-66E8-4391-B1A9-9BED073976B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C2D818F-DECC-4F4C-B092-776A51C584BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2D818F-DECC-4F4C-B092-776A51C584BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2D818F-DECC-4F4C-B092-776A51C584BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2D818F-DECC-4F4C-B092-776A51C584BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1A9862-CA50-41B7-8762-929AF6E6B13A}.Debug|Any CPU.ActiveCfg = Debug
+		{BC1A9862-CA50-41B7-8762-929AF6E6B13A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{146A1C6B-5F62-4A6C-9759-9115C6E39CA3} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{6834BB01-8C8F-4B85-BDC6-A830185C8FBE} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{7A7B4C3A-8972-4B14-BEAE-0A37F8FD4F95} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{1B751049-59FD-4429-9AA5-D6633E4D7B05} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{609EE8C6-BC72-49D7-A92C-85E1DE58E2B6} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{DB44F83B-EDFB-48D4-9334-0914C71310DB} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{87631889-66E8-4391-B1A9-9BED073976B7} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+		{6FE68F71-AD13-40A3-A5E1-EFF4177AC1F5} = {39C7DB4E-3A49-44B0-B790-4027A083D758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
